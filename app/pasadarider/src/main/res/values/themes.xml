@@ -1,0 +1,66 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Pasada" parent="Theme.Material3.Light.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/orange_web</item>
+        <item name="colorPrimaryVariant">@color/orange_web</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/oxford_blue</item>
+        <item name="colorSecondaryVariant">@color/oxford_blue</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">@color/gray_light</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">true</item>
+        <item name="android:windowBackground">@color/gray_light</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="BottomNavBar">
+        <item name="colorSecondaryContainer">?colorPrimary</item>
+    </style>
+
+    <style name="TextInputLayout.Dropdown" parent="@style/Widget.Material3.TextInputLayout.OutlinedBox.ExposedDropdownMenu">
+        <item name="boxBackgroundColor">@color/white</item>
+        <item name="boxCornerRadiusTopStart">24dp</item>
+        <item name="boxCornerRadiusTopEnd">24dp</item>
+        <item name="boxCornerRadiusBottomStart">24dp</item>
+        <item name="boxCornerRadiusBottomEnd">24dp</item>
+        <item name="boxStrokeWidth">0dp</item>
+        <item name="hintEnabled">false</item>
+    </style>
+
+    <style name="TextInputEditText" parent="@style/Widget.Material3.TextInputEditText.OutlinedBox.Dense">
+        <item name="android:fontFamily">@font/nunito_regular</item>
+        <item name="android:paddingVertical" tools:targetApi="o">18dp</item>
+    </style>
+
+    <style name="TextInputLayout" parent="@style/Widget.Material3.TextInputLayout.OutlinedBox.Dense">
+        <item name="boxBackgroundColor">@color/white</item>
+        <item name="boxCornerRadiusTopStart">24dp</item>
+        <item name="boxCornerRadiusTopEnd">24dp</item>
+        <item name="boxCornerRadiusBottomStart">24dp</item>
+        <item name="boxCornerRadiusBottomEnd">24dp</item>
+        <item name="boxStrokeWidth">0dp</item>
+        <item name="hintEnabled">false</item>
+    </style>
+
+    <style name="Button" parent="@style/Widget.Material3.Button">
+        <item name="android:fontFamily">@font/nunito_extrabold</item>
+        <item name="android:paddingVertical" tools:targetApi="o">12dp</item>
+        <item name="cornerRadius">24dp</item>
+    </style>
+
+    <style name="ButtonSecondary" parent="@style/Widget.Material3.Button.TonalButton">
+        <item name="android:fontFamily">@font/nunito_extrabold</item>
+        <item name="backgroundTint">@color/white</item>
+        <item name="android:textColor">?colorPrimary</item>
+        <item name="android:paddingVertical" tools:targetApi="o">12dp</item>
+        <item name="cornerRadius">24dp</item>
+    </style>
+
+    <style name="ButtonText" parent="@style/Widget.Material3.Button.TextButton">
+        <item name="android:fontFamily">@font/nunito_regular</item>
+        <item name="android:paddingVertical" tools:targetApi="o">12dp</item>
+    </style>
+</resources>

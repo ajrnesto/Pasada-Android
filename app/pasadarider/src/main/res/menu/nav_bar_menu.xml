@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/miBookings"
+            android:icon="@drawable/book_open_solid"
+            android:title="History"/>
+
+        <item android:id="@+id/miMap"
+            android:icon="@drawable/map_location_dot_solid"
+            android:title="Map" />
+
+        <item android:id="@+id/miProfile"
+            android:icon="@drawable/user_solid"
+            android:title="Profile" />
+    </group>
+</menu>

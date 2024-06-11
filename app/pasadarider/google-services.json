@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "427047339609",
+    "firebase_url": "https://pasadaapp-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "pasadaapp",
+    "storage_bucket": "pasadaapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:427047339609:android:5b5e4a9b84887863a5d348",
+        "android_client_info": {
+          "package_name": "com.pasada"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyASRMRUuhg0SEHi9Su1s_3aSl6keLN1HdY"
+        },
+        {
+          "current_key": "AIzaSyDi83WaKxE8Q218rODIb3StdPy4wNivcEs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:427047339609:android:7c275a071e51ae7ea5d348",
+        "android_client_info": {
+          "package_name": "com.pasadarider"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyASRMRUuhg0SEHi9Su1s_3aSl6keLN1HdY"
+        },
+        {
+          "current_key": "AIzaSyDi83WaKxE8Q218rODIb3StdPy4wNivcEs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
